@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
+
+body {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	overflow-x: hidden;
+	background: white;
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+a, a:hover, a:focus, a:clicked {
+	color: #fff;
+}
+
+.center-area {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+.center-area:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.centered {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+	background: white;
+	width: 100%;
+	min-height:100px;
+}
+
+.logo_main {
+	float: left;
+	width:250px;
+}
+
+.hero-bg {
+	background: url('../img/bg2.png');
+	width: 100%;
+	height: 630px;
+	background-size: cover; 
+}
+
+.hero {
+	height: 630px;
+}
+
+.liner {
+	background: none repeat scroll 0 0 #ffffff;
+    display: inline-block;
+    height: 50px;
+    margin: 20px 0;
+    width: 1px;
+    opacity: 0.6;
+}
+
+.hero h3, .panel-1 h3, .panel-2 h3 {
+	color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 40px 0 10px;
+    line-height: 1;
+    text-transform: capitalize;
+    font-family: 'Cinzel', serif;
+}
+
+.hero p, .panel-1 p, .panel-2 p {
+	color: #fff;
+	opacity: 0.9;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 20px 0 40px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ui.inverted.red.buttons .button, .ui.inverted.red.button {
+	box-shadow: 0px 0px 0px 2px #DB2828 inset !important;
+	color: #DB2828;	
+}
+
+.ui.inverted.red.buttons .button, .ui.inverted.red.button:hover {
+	background:  #DB2828;
+	color: white;
+}
+
+.panel-1 {
+	padding: 90px 0px;
+	background: white;
+}
+
+.panel-2 {
+	padding: 90px 0px;
+	background: #e9ecf1;
+}
+
+.product {
+	width:500px;
+}
+
+.panel-1 p, .panel-2 p {
+	color:black;
+	opacity: 0.9;
+}
+
+.panel-1 .about, {
+	color: #888;
+    font-size: 12px;
+    font-weight: 100;
+    text-transform: none;
+    line-height: 1.7;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.watermark {
+	position: absolute;
+	bottom: 0px;
+	right:0px;
+	opacity: 0.15;
+}
+
+.story {
+	width:100%;
+	min-height: 500px;
+	background-size: cover;
+	background: #e9edf0;
+}
+
+.story-gly {
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left:0px;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s; 
+}
+
+.storyAbs {
+	position: absolute;
+	bottom: 30px;
+	left:30px;
+	padding: 5px;
+}
+
+.storyMore {
+	min-height: 350px;
+}
+
+.storyAbs a.story-main {
+	color: white;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.storyAbs p {
+	color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 40px 0 10px;
+    line-height: 1;
+    text-transform: capitalize;
+    font-family: 'Abhaya';
+}
+
+.ui.feed > .event > .content .summary, .ui.feed > .event > .content .summary > .date {
+	color: white;
+}
+
+.ui.feed > .event > .content .summary > a  {
+	color:red;
+}
+
+.ui.grid > .row.storyfull {
+	padding-bottom: 0px;
+}
+
+#map_canvas {
+	width:100%;
+	height:500px;
+}
+
+footer {
+	padding: 60px 0px;
+	background: #e9ecf1;
+}
+
+footer p {
+	color:white !important;
+	line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: none !important;
+}
+
+ul, li {
+	display: inline-block;
+}
+
+ul {
+	float: right;
+}
+
+ul.nav li a {
+    color: #000;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 30px 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width:900px)
+{
+	ul {
+		display: none;
+	}
+
+	*, *:before, *:after {
+     box-sizing: content-box; 
+	}
+
+	.hero {
+		height: 0px;
+	}
+
+	header {
+		min-height:120px;
+	}
+
+	.hero h3, .panel-1 h3, .panel-2 h3 {
+		font-size: 30px;
+		margin: 20px 0 10px;
+	}
+	.hero-bg {
+		width:100%;
+		background-position-x: -600px;
+	}
+	.product {
+		width:100%;
+	}
+
+	.watermark {
+		display: none;
+	}
+	.center-area {
+		padding: 0px 10px;
+	}
+
+}

@@ -1,0 +1,350 @@
+/* 
+	Level of swag is too damn high.
+*/
+
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Reem+Kufi';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Reem Kufi', sans-serif;
+}
+
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: #f8f8f8;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: white
+}
+
+
+#map {
+    height: 100%;
+}
+
+header{
+	width: 100%;
+	background: white;
+	height: 4em;
+	border-bottom: 2px solid #eee;
+	margin-bottom: 60px;
+}
+.blue{
+	background: #0096ff !important;
+}
+
+header img{
+	margin-top: 15px;
+}
+
+.mapAlert {
+	position: fixed;
+	top:100px;
+	left:0px;
+	width:100%;
+}
+
+.mapRel{
+	position: relative;
+}
+
+.button{
+	font-size: 17px;
+ 	cursor: pointer;
+ 	display: inline-block;
+	border-radius: 0px;
+	text-decoration: none;
+	color:white;
+	width: 150px;
+	margin: 10px;
+	padding: 13px;
+	background: #c90c13;
+	transition: all .4s ease;
+}
+.button:hover {
+  -webkit-transform: scale(1.04);
+  background: #e62b32;
+  color:white;
+}
+
+h2{
+	/*margin-left: -25px;*/
+	font-size: 37px;
+	border-left: 5px solid orange;
+	padding-left: 20px;
+}
+
+::selection{
+	color:white;
+	background: #111;
+}
+
+#wrap{
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+table{
+	font-family: "Montserrat" !important;
+	font-size:15px;
+	color:#797979;
+}
+
+tr,td{
+	background: #fff;
+	padding: 25px;
+	border-bottom: 2px solid #edeeee;
+	text-align: center;
+}
+
+thead{
+	text-transform: uppercase;
+	color: #c90c13;
+}
+
+
+
+#menu{
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 5em;
+	border-top:3px solid rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.7);
+}
+
+.navi{
+	float: right;
+	margin-top: 18px;
+}
+
+.navi li{
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.navi a{
+	color: #c90c13;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18px;
+	transition: all 0.5s ease-out;
+}
+
+.navi a:hover{
+	color: #111;
+}
+
+.addItem {
+	background: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0px;
+	left:0px;
+	display: none;
+}
+
+.addItemCard {
+	background: white;
+	width:500px;
+	display: none;
+	min-height: 300px;
+	margin-top: 150px;
+}
+#slide::-webkit-scrollbar {
+    width:0 !important;
+}
+#slide {
+    -ms-overflow-style: none;
+}
+#slide {
+    overflow: -moz-scrollbars-none;
+}
+
+
+#foundModal h3 {
+	font-family: 'Montserrat';
+	font-size:20px;
+	font-weight: 600;
+	color: #0096ff;
+}
+
+#foundModal p {
+	font-size:13px;
+	color: #797e84;
+	font-weight: 600;
+	font-family: 'Montserrat';
+}
+
+#LostModal, #FoundModal {
+	font-family: 'Montserrat';
+	background: rgba(0, 0, 0, 0.85);
+}
+
+#LostReqModal, #FoundReqModal, #ModalAlert {
+	font-family: 'Montserrat';
+	background: rgba(0, 0, 0, 0.85);
+}
+
+
+#lostModal, #foundModal, #modalAlert {
+	font-family: 'Montserrat';
+	background: transparent;
+}
+
+#lostModal h3 {
+	font-family: 'Montserrat';
+	font-size:20px;
+	font-weight: 600;
+	color: #c90c13;
+}
+
+#lostModal p {
+	font-size:13px;
+	color: #797e84;
+	font-weight: 600;
+	font-family: 'Montserrat';
+}
+
+.modal-header {
+	border-bottom: 0px solid white;
+}
+
+.modal-footer {
+	border-top: 0px solid white;
+}
+
+.ModalText {
+	background: transparent;
+	color: white;
+	width:100%;
+	height:50px;
+	border:2px solid #c90c13;
+	float: center;
+	border-radius:3px;
+	padding: 5px 10px;
+	font-family: 'Montserrat';
+}
+
+#ModalAlert .container .row {
+	margin-top: 200px;
+}
+
+.AlertIcon {
+	color: #fff;
+	font-size: 50px;
+}
+
+.AlertHeader {
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.AlertMsg {
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+.ModalTextArea {
+	background: transparent;
+	width:100%;
+	color: white;
+	height:75px;
+	border:2px solid #c90c13;
+	float: center;
+	border-radius:3px;
+	padding: 5px 10px;
+	resize:none;
+	font-family: 'Montserrat';
+}
+
+.blueTxt {
+	border: 2px solid #0096ff;
+}
+
+#blueTxt {
+	color: #0096ff;
+}
+
+.ModalBut {
+	background: #c90c13;
+	width:100%;
+	height:50px;
+	color: white;
+	float: center;
+	border-radius:3px;
+	font-size: 18px;
+	border:0px solid #c90c13;
+	font-family: 'Montserrat';
+	padding: 5px 10px;
+	transition: all .4s ease;
+}
+
+.ModalBut:hover {
+	background: #c90c1380;
+	transition: all .4s ease;
+}
+
+.txtBlue {
+	background: #0096ff;
+	transition: all .4s ease;
+}
+
+.txtBlue:hover {
+	background: #0096ff80;
+	transition: all .4s ease;
+}
+
+.close {
+	color:white;
+}
+
+.imgUpl {
+	margin-left:20px;
+	color: #c90c13;
+	float:right;
+	cursor: pointer;
+	font-size:20px;
+}
+@media screen and (max-width:900px)
+{
+	.aa{
+		display: none;
+	}
+	.addItemCard {
+		width:90%;
+	}
+
+	.aa {
+		display: none;
+	}
+	.navi li {
+		margin-left:5px;
+	}
+	.navi {
+		margin-left: 10px;
+	}
+	header img {
+		margin-left: -50px;
+		width:130px;
+		padding-top: 5px;
+	}
+	#ModalAlert .container .row {
+		margin-top: 20px;
+	}
+	.btnRes {
+		width:120px;
+	}
+}
