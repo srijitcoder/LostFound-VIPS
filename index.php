@@ -13,7 +13,7 @@
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="LostFound @ VIPS">
  	<meta property="og:title" content="LostFound - VIPS" />
- 	<meta property="og:description" content="An portal to find lost/found stuff built by ACE members at VIPS." />
+ 	<meta property="og:description" content="A portal to find lost/found stuff at VIPS." />
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
 </head>
 <body id="slide">
@@ -26,14 +26,6 @@
     <a href="log.php">
       <span class="icon-menu">
         <span class="aa">Found/Lost Items</span>
-      </span>
-    </a>
-   </li> 
-
-	 <li> 
-    <a href="http://facebook.com/vipsace" target="_blank">
-      <span class="icon-facebook-squared">
-        <span class="aa">ACE Facebook</span>
       </span>
     </a>
    </li>

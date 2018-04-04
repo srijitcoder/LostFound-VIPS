@@ -13,7 +13,7 @@
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="LostFound @ VIPS">
  	<meta property="og:title" content="LostFound - VIPS" />
- 	<meta property="og:description" content="An portal to find lost/found stuff built by ACE members at VIPS." />
+ 	<meta property="og:description" content="A portal to find lost/found stuff at VIPS." />
 </head>
 <body>
 

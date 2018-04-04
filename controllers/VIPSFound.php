@@ -19,7 +19,6 @@ if($foundItem == '' || $foundSeen == '' || $foundDesc == '' || $foundPhn == ''){
 $allowed = array('png', 'jpg', 'jpeg');
 
 if(isset($_FILES['foundImg']) && $_FILES['foundImg']['error'] == 0){
-
 	$extension = pathinfo($_FILES['foundImg']['name'], PATHINFO_EXTENSION);
 
 	if(!in_array(strtolower($extension), $allowed)){
